@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body style="background-image: url(https://thumbs.dreamstime.com/b/wood-background-wallpaper-hd-123273980.jpg);">
+    <script type="text/javascript" src="validation.js"></script>
+    <h1 >Resume Validation</h1>
+    <form  onsubmit="return validate()" action="Page0.html" id="form1">
+    	<center>
+    	<label>First Name</label>
+    	<input type="text" name="firstname" id="fname">
+    	<span  id="msg1"></span>
+    	<br></br>
+    	<label>Last Name</label>
+    	<input type="text" name="lastname" id="lname">
+    	<span  id="msg2"></span>
+       <br></br>
+       <label>Age</label>
+       <input type="text" name="age" id="age">
+       <span  id="msg3"></span>
+       </center> 
+       <br></br>
+       <center >
+       <input type="submit" name="submit" style="font-size: 20px;">
+        </center>
+
+
+    </form>
+</body>
+</html>
